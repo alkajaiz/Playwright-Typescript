@@ -21,6 +21,7 @@ test('Practice test', async ({ page }) => {
     await page.waitForLoadState('networkidle');
     await page.locator('.relative').first().waitFor();
     await page.locator('#event-card').filter({hasText:'Party Time'}).first().getByRole('link',{name:'Book Now'}).click();
+// Added from feature branch
 
 
 
