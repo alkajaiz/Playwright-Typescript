@@ -7,6 +7,7 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 // example file for UI basics test cases
+//second comment added
 test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
