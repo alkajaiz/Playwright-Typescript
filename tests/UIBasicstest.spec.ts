@@ -10,6 +10,7 @@ test('UI Basics test', async ({ page }) => {
     await expect(page).toHaveTitle('Example Domain');   
            
 });
+//2 test cases in one file
 
 test('UI Basics test 2', async ({ page }) => {
 
