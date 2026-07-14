@@ -6,12 +6,11 @@ test('has title', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
 });
-// example file for UI basics test cases
-//second comment added
+
 test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
-  // Click the get started link.
+  // Click the get started link........
   await page.getByRole('link', { name: 'Get started' }).click();
 
   // Expects page to have a heading with the name of Installation.
